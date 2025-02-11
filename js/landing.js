@@ -1,6 +1,6 @@
 document.getElementById('menuToggle').addEventListener('click', function() {
     var container = document.querySelector('.menu-container');
-    var hamburgerIcon = document.querySelector('.menu-toggle .hambuger'); 
+    var hamburgerIcon = document.querySelector('.menu-toggle .hamburger');
     var cancelIcon = document.querySelector('.menu-toggle .cancel');
   
     if (!container || !hamburgerIcon || !cancelIcon) {
